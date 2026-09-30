@@ -1,0 +1,25 @@
+# === 1. Bỏ qua file cấu hình của VS Code & Hệ điều hành ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === 2. Bỏ qua các thư viện tải về (Dành cho Frontend / Node.js / React) ===
+node_modules/
+.next/
+build/
+dist/
+npm-debug.log*
+
+# === 3. Bỏ qua các file biên dịch & tạm (Dành cho Backend C# / .NET) ===
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# === 4. Bỏ qua các file chứa mật khẩu / khóa bảo mật ===
+.env
+.env.local
+*.pem
